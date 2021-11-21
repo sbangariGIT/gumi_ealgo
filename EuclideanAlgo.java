@@ -29,8 +29,8 @@ public class EuclideanAlgo{
                 System.out.println("inverse of "+ b + " mod " + a +  " is " + (d2));
             }
             else{
-                System.out.println("inverse of "+ a + " mod " + b + " is " + (d1));
-                System.out.println("inverse of "+ b + " mod " + a + " is " + (d2 + a));
+                System.out.println("inverse of "+ a + " (mod " + b + ") is " + (d1));
+                System.out.println("inverse of "+ b + " (mod " + a + ") is " + (d2));
             }
             return;
         }
